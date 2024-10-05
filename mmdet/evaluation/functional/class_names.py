@@ -87,6 +87,12 @@ def coco_classes() -> list:
         'scissors', 'teddy_bear', 'hair_drier', 'toothbrush'
     ]
 
+def visdrone_classes() -> list:
+    """Class names of COCO."""
+    return [
+        'pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor', 'other'
+    ]
+
 
 def coco_panoptic_classes() -> list:
     """Class names of COCO panoptic."""
